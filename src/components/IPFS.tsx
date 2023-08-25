@@ -34,10 +34,9 @@ const UploadIpfs = () => {
 
   return (
     <div>
-      <label>Upload Photo</label>
+      <label className="font-semibold text-red-500">Upload Photo</label>
       <input
         type="file"
-        className="hidden"
         accept=".jpeg,.jpg,.png,.gif"
         onChange={onFileUpload}
       />
