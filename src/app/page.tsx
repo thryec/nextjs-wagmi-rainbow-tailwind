@@ -17,6 +17,7 @@ import { WatchPendingTransactions } from "../components/WatchPendingTransactions
 import { WriteContract } from "../components/WriteContract";
 import { WriteContractPrepared } from "../components/WriteContractPrepared";
 import UploadIpfs from "../components/IPFS";
+import Helia from "../components/Helia";
 
 export function Page() {
   return (
@@ -93,6 +94,10 @@ export function Page() {
         <hr />
         <h2>Upload File to IPFS</h2>
         <UploadIpfs />
+        <br />
+        <hr />
+        <h2>Upload File with Helia</h2>
+        <Helia />
       </Connected>
     </>
   );
