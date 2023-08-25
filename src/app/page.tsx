@@ -18,6 +18,7 @@ import { WriteContract } from "../components/WriteContract";
 import { WriteContractPrepared } from "../components/WriteContractPrepared";
 import UploadIpfs from "../components/IPFS";
 import Helia from "../components/Helia";
+import MintNFT from "../components/MintNFT";
 
 export function Page() {
   return (
@@ -97,7 +98,11 @@ export function Page() {
         <br />
         <hr />
         <h2>Upload File with Helia</h2>
-        <Helia />
+        {/* <Helia /> */}
+        <br />
+        <hr />
+        <h2>Mint NFT</h2>
+        <MintNFT />
       </Connected>
     </>
   );
